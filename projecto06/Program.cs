@@ -9,13 +9,13 @@ namespace projecto06
         {
             int nota01, nota02, nota03;
             string nombre;
-            System.Console.WriteLine("Ingrese el nombre del alumno :");
+            Console.WriteLine("Ingrese el nombre del alumno :");
             nombre = Console.ReadLine();
             Console.WriteLine("Ingrese la Nota 01 :");
             nota01 = int.Parse(Console.ReadLine());
             if (nota01>=0 && nota01<=20)
             {
-                Console.WriteLine("la nota es correcta");
+                
             }
             else
             {
