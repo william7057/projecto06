@@ -15,7 +15,7 @@ namespace projecto06
             nota01 = int.Parse(Console.ReadLine());
             if (nota01>=0 && nota01<=20)
             {
-
+                Console.WriteLine("la nota es correcta");
             }
             else
             {
